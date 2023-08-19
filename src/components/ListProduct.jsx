@@ -5,7 +5,7 @@ import {
   getProducts,
   productSelectors,
   deleteProduct,
-} from "../features/ProductSlice";
+} from "../features/productSlice";
 import Edit from "../assets/img/edit.png";
 import Trash from "../assets/img/trash.png";
 import ModalAddProduct from "./ModalAddProduct";
