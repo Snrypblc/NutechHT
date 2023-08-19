@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Form, Button } from "react-bootstrap";
-import { addProduct } from "../features/ProductSlice";
+import { addProduct } from "../features/productSlice";
 import { useDispatch } from "react-redux";
 
 function ModalAddProduct({ show, showAddProduct }) {

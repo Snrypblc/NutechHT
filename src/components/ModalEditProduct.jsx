@@ -5,7 +5,7 @@ import {
   getProducts,
   productSelectors,
   updateProduct,
-} from "../features/ProductSlice";
+} from "../features/productSlice";
 
 function ModalEditProduct({ show, showEditProduct, id }) {
   const handleClose = () => showEditProduct(false);
